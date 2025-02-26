@@ -1,0 +1,120 @@
+
+body{
+background-image:url(clock_images/img_frame.jpg);
+background-size:cover;
+background-repeat:no-repeat;
+background-position: center;
+background-attachment:fixed;
+}
+.clock-container{
+    display:flex;
+    flex-direction:row;
+}
+.clock{
+    height:170px;
+    width:500px;
+    
+   padding-top:20px;
+    margin-top:10%;
+    margin-left:-18%;
+
+    color:#fff;
+    font-size:120px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-weight: 600;
+  text-shadow: 5px 5px 5px aqua;
+     
+
+}
+.clockname{
+      height:170px;
+    width:500px;
+    
+   padding-top:20px;
+    margin-top:13%;
+    margin-left:5%;
+
+    color:black;
+    font-size:50px;
+    font-family:fantasy;
+    font-weight: 600;
+  text-shadow: 5px 5px 10px red;
+     
+
+}
+.stpcont{
+        display:flex;
+    flex-direction:row;
+}
+.stpname{
+       height:170px;
+    width:500px;
+    
+   padding-top:20px;
+    margin-top:1%;
+    margin-left:0%;
+
+    color:black;
+    font-size:50px;
+    font-family:fantasy;
+    font-weight: 600;
+  text-shadow: 5px 5px 10px red;
+    
+}
+.stp{
+    height:170px;
+    width:500px;
+    
+   padding-top:20px;
+   padding-left:80px;
+     margin-top:-3%;
+    margin-left:-18%;
+
+    color:#fff;
+    font-size:120px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-weight: 600;
+  text-shadow: 5px 5px 5px coral;
+     
+}
+.stpbuttons{
+    display:flex;
+    flex-direction:row;
+    margin-left:350px;
+    margin-top:-95px;
+    cursor:pointer;
+}
+#start{
+      min-height:30px;
+    min-width:50px;
+    font-size:20px;
+     font-family: cursive;
+    font-weight: 800;
+    border:5px solid black;
+    border-radius:30px;
+    padding:5px;
+    margin:30px;
+}
+#stop{
+          min-height:30px;
+    min-width:50px;
+    font-size:20px;
+     font-family: cursive;
+    font-weight: 800;
+    border:5px solid black;
+    border-radius:30px;
+    padding:5px;
+    margin:30px;
+}
+#reset{
+    min-height:30px;
+    min-width:50px;
+    font-size:20px;
+     font-family: cursive;
+    font-weight: 800;
+    border:5px solid black;
+    border-radius:30px;
+    padding:5px;
+    margin:30px;
+}
+
